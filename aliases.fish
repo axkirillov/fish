@@ -15,5 +15,6 @@ alias repo "cd $HOME/repo/(ls $HOME/repo | fzf)"
 alias f "floaterm"
 alias lzd="lazydocker"
 alias lzg="lazygit"
+alias run-branch="gh workflow run build.yaml --ref (git rev-parse --abbrev-ref HEAD)"
 
 source $HOME/fish/secret/aliases.fish
