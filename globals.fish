@@ -7,3 +7,5 @@ set -xg VISUAL $EDITOR
 set -xg FZF_DEFAULT_COMMAND "fd --type f -H"
 # needed for ruby integration with neovim
 set -xg GEM_HOME $HOME/.gem/bin/
+
+source $HOME/fish/secret/globals.fish
