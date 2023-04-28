@@ -18,5 +18,6 @@ alias lzg="lazygit"
 alias run-branch="gh workflow run build.yaml --ref (git rev-parse --abbrev-ref HEAD)"
 alias ring-bell-3-times="tput bel && sleep 0.1 && tput bel && sleep 0.1 && tput bel"
 alias lg="$HOME/scripts/fzf-grep.sh"
+alias changed-files="git diff --name-only (git merge-base HEAD develop)"
 
 source $HOME/fish/secret/aliases.fish
