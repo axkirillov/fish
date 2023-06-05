@@ -1,7 +1,5 @@
 # global vars
-set -xg CONFIG $HOME/.config
-set -xg FISH_CONFIG $CONFIG/fish/config.fish
-set -xg NVIM_CONFIG $CONFIG/nvim
+set -xg XDG_CONFIG_HOME "$HOME/.config"
 set -xg EDITOR nvim
 set -xg VISUAL $EDITOR
 set -xg FZF_DEFAULT_COMMAND "fd --type f -H"
