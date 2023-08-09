@@ -1,11 +1,11 @@
 function kube-staging
     set -xg KUBECONFIG $HOME/.kube/mp-staging-shop-primary
-	echo "context switched to 'staging', don't forget to mfa"
+	echo "context switched to 'staging'"
 end
 
 function kube-production
     set -xg KUBECONFIG $HOME/.kube/mp-prod-shop-primary
-	echo "context switched to 'production', don't forget to mfa"
+	echo "context switched to 'production'"
 end
 
 function kube-unset
@@ -13,6 +13,6 @@ function kube-unset
 end
 
 function kube-junique
-    set -xg KUBECONFIG $HOME/.kube/jq-shop-production
-	echo "context switched to 'junique production', don't forget to mfa"
+    set -xg KUBECONFIG $HOME/.kube/jq-prod-shop-primary
+	echo "context switched to 'junique production'"
 end
