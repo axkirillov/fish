@@ -1,3 +1,3 @@
 function j
-	just (just --summary | tr ' ' '\n' | fzf)
+	bash -c 'source ~/scripts/just.sh; j'
 end
