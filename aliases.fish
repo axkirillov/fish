@@ -17,4 +17,4 @@ alias lg="$HOME/scripts/fzf-grep.sh"
 alias changed-files="git diff --name-only (git merge-base HEAD develop)"
 alias add-ticket-number="~/repo/bulk-edit-git-commit-messages/begcm.sh"
 alias mfa ~/repo/dev-cluster/aws/aws-mfa-check.sh
-
+alias j just
