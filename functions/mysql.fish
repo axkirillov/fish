@@ -17,3 +17,4 @@ end
 function mysql-remote-log
     mycli -u root -h localhost myposter -p toor -P 3306 -l log.txt
 end
+
