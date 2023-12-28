@@ -11,4 +11,3 @@ alias lzd="lazydocker"
 alias lg="$HOME/scripts/fzf-grep.sh"
 alias add-ticket-number="~/repo/bulk-edit-git-commit-messages/begcm.sh"
 alias mfa ~/repo/dev-cluster/aws/aws-mfa-check.sh
-alias docker-login="~/repo/dev-cluster/aws/aws-ecr-login.sh"
