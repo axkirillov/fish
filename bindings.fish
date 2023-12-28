@@ -1,4 +1,4 @@
 #bindings
-bind -M insert \cb backward-word
-bind -M insert \cf forward-word
-bind \cg 'lazygit'
+bind \cg "lazygit"
+#opens a new tmux window in one of the repo directories
+bind \co "tmux new-window -c $HOME/repo/(ls $HOME/repo | fzf)"
