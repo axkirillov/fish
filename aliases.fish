@@ -7,14 +7,8 @@ alias v=nvim
 alias vi=nvim
 alias vim=nvim
 alias rm="rm -i"
-alias request="make -C $HOME/requests/"
-alias requests="vi $HOME/requests/Makefile" 
 alias lzd="lazydocker"
-alias lzg="lazygit"
-alias run-branch="gh workflow run build.yaml --ref (git rev-parse --abbrev-ref HEAD)"
 alias lg="$HOME/scripts/fzf-grep.sh"
-alias changed-files="git diff --name-only (git merge-base HEAD develop)"
 alias add-ticket-number="~/repo/bulk-edit-git-commit-messages/begcm.sh"
 alias mfa ~/repo/dev-cluster/aws/aws-mfa-check.sh
-alias j just
 alias docker-login="~/repo/dev-cluster/aws/aws-ecr-login.sh"
