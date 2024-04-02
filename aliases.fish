@@ -14,3 +14,5 @@ alias repo "cd $HOME/repo/(ls $HOME/repo | fzf)"
 alias hx "hx -c $HOME_MANAGER/helix/config.toml"
 alias v 'fg $(eval "pgrep -P $fish_pid nvim") || nvim'
 alias last-run "open -u $(gh run list --limit 1 --json url --jq '.[0].url')"
+alias up "docker compose up -d --build"
+alias down "docker compose down"
